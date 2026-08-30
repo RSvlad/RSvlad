@@ -1,56 +1,54 @@
-# Applied Software Engineer | Security-Oriented Developer
+# Applied Software Engineer
 
-Focused on building practical software with an interest in low-level systems and reverse engineering.
-
-## Focus Areas
-
-- **.NET Development**
-  - WPF, MAUI, WinForms
-  - Desktop applications and tooling
-
-- **Python Development**
-  - Automation scripting
-  - Discord bots
-
-- **Reverse Engineering (Foundational)**
-  - Static analysis with IDA, Ghidra
-  - Binary inspection and understanding program behavior
-
----
+Building practical applications end to end — frontend, backend, and the domain model that holds it together.
 
 ## Tech Stack
 
 **Languages**
-- C/C#/C++
+- C# / C++ / C
+- TypeScript / JavaScript
 - Python
 
-**Frameworks & Tools**
-- .NET (WPF, MAUI, WinForms)
-- Git
+**Frontend**
+- React, Vite, TailwindCSS
+- WPF, MAUI, WinForms (desktop)
 
-**Security / RE Tools**
-- IDA
-- Ghidra
-- x64dbg
-- WireShark
+**Backend & Data**
+- Node.js, Express
+- JWT authentication, role-based access control
+- Firebase (Auth, Firestore, Storage)
+- MySQL (Master/Slave replication), SQLite
 
----
+**Architecture**
+- Domain-Driven Design, bounded contexts
+- Layered architecture (domain / application / infrastructure / ui)
 
-## Current Focus
-
-- Improving reverse engineering skills
-- Building portfolio-grade projects
-- Writing cleaner, maintainable code
+**Tools & DevOps**
+- Git, Docker & docker-compose, pytest, Firebase security rules
 
 ---
 
 ## Projects
 
-// Work in progress
+### 💰 [Timska Kasa](https://github.com/RSvlad/Timska-kasa)
+Shared team-finance tracker with no backend server — React + TypeScript frontend, Firebase (Auth/Firestore/Storage) infrastructure, deployed to GitHub Pages. Structured around DDD principles with two bounded contexts (Identity, Finance); access control enforced entirely through Firestore security rules.
+
+### [ODP Team Project Template](https://github.com/CvijicIgor1/odp_C1S_tim_14)
+Full-stack TypeScript base template built as part of a team (team 14). React 19 + Vite + TailwindCSS frontend, Node.js/Express backend with a clean layered structure (Domain / Services / WebAPI), JWT auth with role-based access control, and MySQL 8 with Master + 2 Slave replication orchestrated via Docker.
+
+### Other projects (coursework / archive)
+C#/WPF projects from university courses and personal work — task management, metering simulation (HCI), and coursework projects for AUS and PRMIS.
+
+---
+
+## Current Focus
+
+- Deepening architectural patterns (DDD, bounded contexts) in projects outside of coursework
+- Full-stack work across React, Node/Express, and Firebase
+- Writing tested, maintainable code
 
 ---
 
 ## Notes
 
-- Interested in backend systems and low-level software behavior
-- Open to collaboration on meaningful projects
+- Open to collaboration on projects with clear architecture
