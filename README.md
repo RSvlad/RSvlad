@@ -36,8 +36,11 @@ Shared team-finance tracker with no backend server — React + TypeScript fronte
 ### [ODP Team Project Template](https://github.com/CvijicIgor1/odp_C1S_tim_14)
 Full-stack TypeScript base template built as part of a team (team 14). React 19 + Vite + TailwindCSS frontend, Node.js/Express backend with a clean layered structure (Domain / Services / WebAPI), JWT auth with role-based access control, and MySQL 8 with Master + 2 Slave replication orchestrated via Docker.
 
+### 🚢 [PRMIS - Potapanje Podmornica](https://github.com/didi40904/PRMIS-PotapanjePodmornica)
+Client-server submarine battle game built for the PRMIS course. C# solution split into Klijent (client), PodmorniceServer (server), and PodmorniceLibrary (shared domain logic) projects.
+
 ### Other projects (coursework / archive)
-C#/WPF projects from university courses and personal work — task management, metering simulation (HCI), and coursework projects for AUS and PRMIS.
+C#/WPF projects from university courses and personal work — task management, metering simulation (HCI), and coursework projects for AUS.
 
 ---
 
